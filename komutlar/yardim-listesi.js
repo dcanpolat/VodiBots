@@ -9,13 +9,13 @@ exports.run = (client, message, params) => {
     .setDescription("")
     .setColor(0x00ffff)
     .setDescription(
-      "**•** **!yetkili** Sunucuyu yönetmek için gerekli olan komutlar.\n**•** **!eğlence** Eğlenmek için bulunan komutlar.\n**•** **!kullanıcı** Kullanıcılar için komutlar.\n**•** **!bot** Bot ile alakalı komutları görürsünüz."
+      "**•** **-yetkili** Sunucuyu yönetmek için gerekli olan komutlar.\n**•** **-eğlence** Eğlenmek için bulunan komutlar.\n**•** **-kullanıcı** Kullanıcılar için komutlar.\n**•** **-bot** Bot ile alakalı komutları görürsünüz."
     )
     .addField(
       "» Linkler",
-      `[Bot Davet Linki](https://discordapp.com/oauth2/authorize?client_id=662355232591970321&scope=bot&permissions=805314622)` +
+      `[Bot Davet Linki](https://discordapp.com/oauth2/authorize?client_id=697201048238162061&scope=bot&permissions=2146958847)` +
         "**\n**" +
-        `[Bota Oyver](https://botsfordiscord.com/bot/650739604789395476/vote)` +
+        `[Bota Oyver Aktif Değil](böyle bir yer yok)` +
         "**\n**" +
         `[Destek Sunucusu](https://discord.gg/AHe4u4m)`,
       false
