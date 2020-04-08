@@ -5,8 +5,8 @@ exports.run = (client, message, args) => {
   
     const juke = new Discord.RichEmbed()
     .setColor('GOLD')
-    .setAuthor(`Just-Watch | Yetkili Komutları`, client.user.avatarURL) 
-      .setDescription('**[destek sunucum için tıkla](https://discord.gg/aedtftG)**')
+    .setAuthor(`Just-Watch+!V2 | Yetkili Komutları`, client.user.avatarURL) 
+      .setDescription('**[destek sunucum için tıkla](https://discord.gg/EMU3jQ6)**')
 .setThumbnail(client.user.avatarURL)
       .addField('**Genel**', '`kick`, `oylama`, `reboot`, `ban`, `banlist`, `duyuru`, `çekiliş`, `isim`, `fakemesaj`, `uyarı`, `sabitle`, `partner`, `botkontrol`')
       .addField('**Gerekli Komutlar**', '`otorol-sistemi`, `sayaç-sistemi`, `kayıt-sistemi`, `seviye-sistemi`, `sunucu-sistemi`')
