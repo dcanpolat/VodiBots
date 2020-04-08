@@ -9,7 +9,7 @@ var bos = "Aranıyor..."
     let store = args.slice(0).join('+');
 
         let link = `https://play.google.com/store/search?q=` + store;
-        if(!store)return message.channel.send("Hangi oyunu aratmak istersin. **Kullanımı:** `!!playstore online kafa topu`")
+        if(!store)return message.channel.send("Hangi oyunu aratmak istersin. **Kullanımı:** `-playstore online kafa topu`")
         if(!link)return message.channel.send("Oyun bulunamadı.")
         let embed = new Discord.RichEmbed()
     

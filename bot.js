@@ -269,7 +269,7 @@ client.on('message', async message => {
 
 
 
-       message.guild.owner.send("Gerekli Herşey Kuruldu Rahatına Bak! **HAN  Bot'un kıymetini bil :D**")
+       message.guild.owner.send("Gerekli Herşey Kuruldu Rahatına Bak! **ÖZEL Bot'un kıymetini bil :D**")
      
             })   
     
