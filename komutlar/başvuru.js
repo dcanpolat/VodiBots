@@ -3,7 +3,7 @@ const Discord = require('discord.js');
 exports.run = (client, message, args) => {
   let reason = args.slice(1).join(' ');
   let guild = message.guild
-  let terfiler = guild.channels.find('name', 'yetki-başvurusu');
+  let terfiler = guild.channels.find('id', '697802625600716940');
   if (!terfiler) return message.reply('`yetki-başvurusu` kanalını bulamıyorum.');
   let user = message.mentions.users.first();
   if (reason.length < 1) return message.reply('Yöneticilerin belirtiği şartları yazınız. ve Kendinizi etiketleyiniz.');
