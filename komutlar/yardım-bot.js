@@ -5,7 +5,7 @@ exports.run = (client, message, args) => {
   
     const juke = new Discord.RichEmbed()
     .setColor('GOLD')
-    .setAuthor(`RTX-BOT | Bot Komutları`, client.user.avatarURL) 
+    .setAuthor(`Ask Bot | Bot Komutları`, client.user.avatarURL) 
       .setDescription('**[Website](https://ibots.glitch.me)**')
 .setThumbnail(client.user.avatarURL)
       .addField('**Komutlar:**', '`bizkimiz`, `desteksunucu`, `sikayet`, `ping`')

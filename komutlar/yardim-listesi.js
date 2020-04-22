@@ -17,7 +17,7 @@ exports.run = (client, message, params) => {
         "**\n**" +
         `[Bota Oyver Aktif Değil](böyle bir yer yok)` +
         "**\n**" +
-        `[Destek Sunucusu](https://discord.gg/AHe4u4m)`,
+        `[Destek Sunucusu](https://discord.gg/VQ6yZn)`,
       false
     )
     .setFooter("iBOT | Yardım Komutları");
